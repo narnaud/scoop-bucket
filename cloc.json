@@ -1,0 +1,9 @@
+{
+    "homepage": "https://github.com/AlDanial/cloc",
+    "url": "https://github.com/AlDanial/cloc/releases/download/v1.72/cloc-1.72.exe",
+    "version": "1.72",
+    "hash": "cdbbba435649ff6efbceb2824bc1404091fcf09d78547507dee4bb3e3ab841df",
+    "bin": [
+		["cloc-1.72.exe", "cloc", ""]
+	]
+}
