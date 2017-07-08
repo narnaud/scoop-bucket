@@ -1,0 +1,17 @@
+{
+    "homepage": "https://hub.github.com/",
+    "version": "2.2.9",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/github/hub/releases/download/v2.2.9/hub-windows-amd64-2.2.9.zip"
+            "hash": "DD90E977924C92F6685B66202CD108FBDCC946560964747CB8CA2A904316676F"
+        },
+        "32bit": {
+            "url": "https://github.com/github/hub/releases/download/v2.2.9/hub-windows-386-2.2.9.zip",
+            "hash": "FA8BDB2DDF0AAC0BED23B166A35788E48922336FCAA1D0929818489F6C27342C"
+        }
+    },
+    "bin": [
+        "bin\\hub.exe"
+    ]
+}
