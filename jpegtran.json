@@ -1,7 +1,7 @@
 {
     "homepage": "http://jpegclub.org/jpegtran/",
     "url": "http://jpegclub.org/jpegtran.exe",
-    "version": "3.0.0",
-    "hash": "9767f05ae1b59d4fea25a73b276dcd1245f5281b53386dc03784539265bffbea",
+    "version": "9c",
+    "hash": "e7702618d4d3366f75d57a1f55f32fa1123875e2c9cbe54c9bf42e01f432b0e0",
     "bin": "jpegtran.exe"
 }
