@@ -16,6 +16,7 @@ scoop install narnaud/<manifestname>
 - [clink-completions](https://github.com/vladimir-kotikov/clink-completions): Completions for various commands through [Clink](https://chrisant996.github.io/clink/) (see [notes](#notes))
 - [clink-flex-prompt](https://github.com/chrisant996/clink-flex-prompt): Flexible customizable prompt for [Clink](https://chrisant996.github.io/clink/) (see [notes](#notes))
 - [use](https://github.com/narnaud/use): Command line tool to setup environment defined in a json file
+- [dirx](https://github.com/chrisant996/dirx): The dir command, extended
 
 ## Notes
 
