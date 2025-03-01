@@ -7,7 +7,7 @@ Bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 ## Installation
 
 ```pwsh
-scoop bucket add narnaud https://github.com/naranud/scoop-bucket
+scoop bucket add narnaud https://github.com/narnaud/scoop-bucket
 scoop install narnaud/<manifestname>
 ```
 
