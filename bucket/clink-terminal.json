@@ -1,0 +1,28 @@
+{
+    "version": "1.0.0",
+    "description": "Clink setup for Windows Terminal",
+    "homepage": "https://github.com/narnaud/clink-terminal",
+    "license": "MIT",
+    "depends": [
+        "clink",
+        "bat",
+        "dirx",
+        "fd",
+        "fzf",
+        "ripgrep",
+        "vim",
+        "which",
+        "zoxide"
+    ],
+    "suggest": {
+        "Use": "use",
+        "Yazi": "yazi"
+    },
+    "url": "https://github.com/narnaud/clink-terminal/releases/download/v1.0.0/clink-terminal.zip",
+    "hash": "0d4b1961acb3640720c753d0e51144aeb13c515eae3efa3d743f662d5caa2a40",
+    "bin": "clink-terminal.bat",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/narnaud/clink-terminal/releases/download/v$version/clink-terminal.zip"
+    }
+}
