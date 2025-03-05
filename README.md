@@ -17,6 +17,7 @@ scoop install narnaud/<manifestname>
 - [clink-flex-prompt](https://github.com/chrisant996/clink-flex-prompt): Flexible customizable prompt for [Clink](https://chrisant996.github.io/clink/) (see [notes](#notes))
 - [clink-terminal](https://github.com/narnaud/clink-terminal): Clink setup for Windows Terminal
 - [dirx](https://github.com/chrisant996/dirx): The dir command, extended
+- [natvis4qt](https://github.com/narnaud/natvis4qt): Command line tool to install or update natvis files in different locations
 - [use](https://github.com/narnaud/use): Command line tool to setup environment defined in a json file
 
 ## Notes
