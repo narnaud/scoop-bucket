@@ -6,13 +6,14 @@
     "depends": [
         "clink",
         "bat",
+        "chafa",
         "dirx",
         "fd",
         "fzf",
-        "jq",
         "ripgrep",
         "vim",
         "which",
+        "yq",
         "zoxide"
     ],
     "suggest": {
