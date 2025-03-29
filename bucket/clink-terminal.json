@@ -1,5 +1,5 @@
 {
-    "version": "2.1.1",
+    "version": "2.1.2",
     "description": "Clink setup for Windows Terminal",
     "homepage": "https://github.com/narnaud/clink-terminal",
     "license": "MIT",
@@ -20,8 +20,8 @@
         "Use": "use",
         "Yazi": "yazi"
     },
-    "url": "https://github.com/narnaud/clink-terminal/releases/download/v2.1.1/clink-terminal.zip",
-    "hash": "32d4160a56b9221966fb01452d7125af6c72814bf3459b2584c7af7d350ab9ec",
+    "url": "https://github.com/narnaud/clink-terminal/releases/download/v2.1.2/clink-terminal.zip",
+    "hash": "29cfdf309b04ac2e95def40c9ecff1d10de0e23face773c67d345d40780b59e6",
     "bin": "clink-terminal.bat",
     "checkver": "github",
     "autoupdate": {
