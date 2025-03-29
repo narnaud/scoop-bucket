@@ -1,0 +1,16 @@
+{
+    "version": "0.3.0",
+    "description": "PowerShell module toi be used with use",
+    "homepage": "https://github.com/narnaud/use",
+    "license": "MIT",
+    "depends": "use",
+    "url": "https://github.com/narnaud/use/releases/download/v0.3.0/posh-use.zip",
+    "hash": "c42081c676bff128f8c20e5c886a6b2bb490e21934dbe85c5da6944f35a8c5ff",
+    "psmodule": {
+        "name": "posh-use"
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/narnaud/use/releases/download/v$version/posh-use.zip"
+    }
+}

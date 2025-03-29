@@ -1,6 +1,6 @@
 {
     "version": "0.2.0",
-    "description": "Command line tool to setup environment defined in a json file",
+    "description": "Command line tool to setup environment defined in a configuration file",
     "homepage": "https://github.com/narnaud/use",
     "license": "MIT",
     "suggest": {
