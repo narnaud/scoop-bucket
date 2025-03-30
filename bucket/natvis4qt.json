@@ -1,12 +1,12 @@
 {
-    "version": "0.4.0",
+    "version": "0.5.0",
     "description": "Command line tool to install or update natvis files in different locations",
     "homepage": "https://github.com/narnaud/natvis4qt",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/narnaud/natvis4qt/releases/download/v0.4.0/natvis4qt-x86_64-pc-windows-msvc.zip",
-            "hash": "8098898b45d6216937b3ee9e08b4ea843973bfbd5f5310612e214bec887eca78"
+            "url": "https://github.com/narnaud/natvis4qt/releases/download/v0.5.0/natvis4qt-x86_64-pc-windows-msvc.zip",
+            "hash": "07d71db839f3f8de1b279ff35a60aed2f58ab731372b31cce2f069b9eb2a94a7"
         }
     },
     "bin": "natvis4qt.exe",
