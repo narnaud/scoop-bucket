@@ -13,6 +13,7 @@ scoop install narnaud/<manifestname>
 
 ## Bucket list
 
+- [clink-completions](https://github.com/vladimir-kotikov/clink-completions): Completions for various commands through [Clink](https://chrisant996.github.io/clink/) (see [notes](#notes))
 - [clink-flex-prompt](https://github.com/chrisant996/clink-flex-prompt): Flexible customizable prompt for [Clink](https://chrisant996.github.io/clink/) (see [notes](#notes))
 - [clink-terminal](https://github.com/narnaud/clink-terminal): Clink setup for Windows Terminal
 - [dirx](https://github.com/chrisant996/dirx): The dir command, extended
