@@ -21,8 +21,11 @@ scoop install narnaud/<manifestname>
 
 ## Notes
 
- `clink-flex-prompt` already exists in main, unfortunately at each updates it will complain about already existing settings. During installation, the manifest is registering the installation path, but with the version name instead of `current`: you will end up with multiple versions.
+`clink-completions` and `clink-flex-prompt` already exist in main, unfortunately at each updates it will complain about already existing settings. During installation, the manifest is registering the installation path, but with the version name instead of `current`: you will end up with multiple versions.
 
-Here is a pull request fixing `clink-completions`: <https://github.com/ScoopInstaller/Main/pull/6577>
+Here is a pull request to fix them:
+
+- clink-completions: <https://github.com/ScoopInstaller/Main/pull/6577>
+- clink-flex-prompt: <https://github.com/ScoopInstaller/Main/pull/7171>
 
 In the mean time, you can use the manifest from this bucket.
