@@ -1,15 +1,33 @@
 {
-    "version": "0.4.1",
+    "version": "0.5.0",
     "description": "Supercharge git CLI for seamless work with integration branch",
     "homepage": "https://github.com/narnaud/git-loom",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/narnaud/git-loom/releases/download/v0.4.1/git-loom-x86_64-pc-windows-msvc.zip",
-            "hash": "3aa6c36ec77e859549220f6aa9e15ba9c27bfe8a23fffbc5c330a55499610e71"
+            "url": "https://github.com/narnaud/git-loom/releases/download/v0.5.0/git-loom-x86_64-pc-windows-msvc.zip",
+            "hash": "9c45119754191e8091304a202722119d2646453d1dd2c5bb0018774dc8e637a4"
         }
     },
     "bin": "git-loom.exe",
+    "installer": {
+        "script": [
+            "$luapath = Join-Path (Split-Path -Path \"$dir\" -Parent) \"current\\clink\"",
+            "if (Get-Command clink -ErrorAction SilentlyContinue) {",
+            "   clink installscripts \"$luapath\"",
+            "} else {",
+            "   warn 'Clink installation not found. Please manually install these scripts.'",
+            "}"
+        ]
+    },
+    "uninstaller": {
+        "script": [
+            "$luapath = Join-Path (Split-Path -Path \"$dir\" -Parent) \"current\\clink\"",
+            "if (Get-Command clink -ErrorAction SilentlyContinue) {",
+            "   clink uninstallscripts \"$luapath\"",
+            "}"
+        ]
+    },
     "checkver": "github",
     "autoupdate": {
         "architecture": {
