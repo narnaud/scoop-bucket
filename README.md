@@ -8,25 +8,14 @@ Bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 
 ```pwsh
 scoop bucket add narnaud https://github.com/narnaud/scoop-bucket
-scoop install narnaud/<manifestname>
+scoop install <manifestname>
 ```
 
 ## Bucket list
 
-- [clink-completions](https://github.com/vladimir-kotikov/clink-completions): Completions for various commands through [Clink](https://chrisant996.github.io/clink/) (see [notes](#notes))
-- [clink-flex-prompt](https://github.com/chrisant996/clink-flex-prompt): Flexible customizable prompt for [Clink](https://chrisant996.github.io/clink/) (see [notes](#notes))
 - [clink-terminal](https://github.com/narnaud/clink-terminal): Clink setup for Windows Terminal
 - [dirx](https://github.com/chrisant996/dirx): The dir command, extended
+- [git-loom](https://github.com/narnaud/git-loom): Supercharge your Git workflow by weaving together multiple feature branches
+- [git-repos](https://github.com/narnaud/git-repos): Scan and manage git repositories
 - [natvis4qt](https://github.com/narnaud/natvis4qt): Command line tool to install or update natvis files in different locations
 - [use](https://github.com/narnaud/use): Command line tool to setup environment defined in a json file
-
-## Notes
-
-`clink-completions` and `clink-flex-prompt` already exist in main, unfortunately at each updates it will complain about already existing settings. During installation, the manifest is registering the installation path, but with the version name instead of `current`: you will end up with multiple versions.
-
-Here is a pull request to fix them:
-
-- clink-completions: <https://github.com/ScoopInstaller/Main/pull/6577>
-- clink-flex-prompt: <https://github.com/ScoopInstaller/Main/pull/7171>
-
-In the mean time, you can use the manifest from this bucket.
