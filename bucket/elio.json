@@ -6,15 +6,17 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/elio-fm/elio/releases/download/v1.11.2/elio-1.11.2-x86_64-pc-windows-msvc.zip",
-            "hash": "6d360e1640b0b0b0c221d587bda1902a3586535ddf66c52638af284264040680"
+            "hash": "6d360e1640b0b0b0c221d587bda1902a3586535ddf66c52638af284264040680",
+			"extract_dir": "elio-1.11.2-x86_64-pc-windows-msvc"
         }
     },
-    "bin": "mcat-x86_64-pc-windows-msvc/mcat.exe",
+    "bin": "elio.exe",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/elio-fm/elio/releases/download/v$version/elio-1.11.2-x86_64-pc-windows-msvc.zip"
+                "url": "https://github.com/elio-fm/elio/releases/download/v$version/elio-1.11.2-x86_64-pc-windows-msvc.zip",
+				"extract_dir": "elio-$version-x86_64-pc-windows-msvc"
             }
         }
     }
