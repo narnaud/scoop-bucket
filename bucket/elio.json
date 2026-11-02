@@ -1,13 +1,13 @@
 {
-    "version": "1.11.2",
+    "version": "1.14.0",
     "description": "Snappy, batteries-included terminal file manager with rich previews, inline images, bulk actions, and trash support",
     "homepage": "https://github.com/elio-fm/elio",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/elio-fm/elio/releases/download/v1.11.2/elio-1.11.2-x86_64-pc-windows-msvc.zip",
-            "hash": "6d360e1640b0b0b0c221d587bda1902a3586535ddf66c52638af284264040680",
-            "extract_dir": "elio-1.11.2-x86_64-pc-windows-msvc"
+            "url": "https://github.com/elio-fm/elio/releases/download/v1.14.0/elio-1.14.0-x86_64-pc-windows-msvc.zip",
+            "hash": "ae33f7a0a7260ccbf2c0fb1c1e54ddcf04d5a197e657863fda55fd9e4053872e",
+            "extract_dir": "elio-1.14.0-x86_64-pc-windows-msvc"
         }
     },
     "bin": "elio.exe",
@@ -15,7 +15,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/elio-fm/elio/releases/download/v$version/elio-1.11.2-x86_64-pc-windows-msvc.zip",
+                "url": "https://github.com/elio-fm/elio/releases/download/v$version/elio-$version-x86_64-pc-windows-msvc.zip",
                 "extract_dir": "elio-$version-x86_64-pc-windows-msvc"
             }
         }
